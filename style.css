@@ -1,0 +1,295 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	user-select :none;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+.container{
+	width: 100%;	
+}
+.containerb{
+	overflow: hidden;
+	color: #808080;
+	padding-top: 100px;
+	font-family: 'Nanum Gothic', sans-serif;
+	padding-bottom: 50px;
+	
+}
+body .container{
+	background: #0A1023;
+	padding-bottom: 50px;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+}
+
+.logo{
+	color: white;
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 80px;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.logo>p{
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.logo>img{
+	float:left;margin-top:32px;margin-left:30px;
+	width: 15px;
+	height: 15px;
+}
+
+.center{
+	width: 40%;height: 80px;float: right;
+	float: left;
+	}
+
+.right{
+	float: left;
+	width: 30%;
+	height: 100%;
+		
+}
+
+
+.center>ul>li{
+	width: 20%;list-style: none;float: left;
+}
+
+.center>ul>li>a{
+	color: white;line-height: 80px;text-align: center;
+	text-transform: uppercase;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	
+}
+
+.right>button{
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	color: white;
+	padding: 10px 30px 10px 30px;
+	text-transform: uppercase;
+	background: #1F2842;
+	border: 1px solid white;
+	cursor: pointer;
+	float: right;
+	line-height: 100%;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+.right>button:hover{
+	background: pink;
+	color: teal
+}
+
+.midbody{
+	width: 100%;
+	height: 400px;
+}
+.midbody>p{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 32px;
+	color: white;
+	position: relative;
+	top: 100px;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+
+.midbtn{
+	margin-top: 140px;
+	margin-left: 435px;
+
+}
+
+.midbtn>button
+{
+	margin-left: 20px;
+	font-size: 13px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	color: white;
+	padding: 10px 15px 10px 15px;
+	text-transform: uppercase;
+	background: #1F2842;
+	border: 2px solid teal;
+	cursor: pointer;
+	width: 220px;
+	height: 50px;
+
+}
+
+.midbtn>button:hover{
+	background: #3498DB;
+}
+
+.bottombody>center{
+	color: #636f88;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.pic
+{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.pic>img{
+	width: 130px;
+	height: 50px;
+	margin-left: 70px;
+}
+
+.main{
+	font-size: 30px;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+.main p{
+	font-size: 14px;
+	line-height: 2;
+
+	padding-top: 10px;
+}
+.main img{
+	border-radius: 50%;
+	width:200px;
+}
+
+.contenta{
+	width:35%;
+	font-size: 24px;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 2;
+	margin-right: 0px;
+	float: left;
+}
+
+.contenta p{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.contentaimg{
+	float: right;
+	margin-left: 0px;
+	margin-right: 140px;
+}
+
+.contentaimg img{
+	height : 300px
+}
+
+.contentb{
+	width:35%;
+	font-size: 24px;
+	margin-right: 100px;
+	text-align: center;
+	line-height: 2;
+	margin-left: 0px;
+	float: right;
+	margin-top: 170px;
+}
+.contentb p{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.contentbimg{
+	
+	float: left;
+	margin-right: 0px;
+	margin-left: 70px;
+	
+}
+.contentbimg img{
+	height : 400px;
+	width : 90%;
+}
+
+.contentc{
+	width:35%;
+	font-size: 24px;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 2;
+	margin-right: 0px;
+	float: left;
+}
+
+.contentc p{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.contentaimg{
+	float: right;
+	margin-left: 0px;
+	margin-right: 140px;
+}
+
+.contentaimg img{
+	height : 300px
+}
+
+.fontpad{
+	font-family: 'Nanum Gothic', sans-serif;
+	padding: 100px 0 50px 0;
+	color: rgba(250, 250, 250, 0.71);
+}
+.container table{
+	width: 100%;
+	text-align: center
+	
+}
+.container th{
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+.temp button
+{
+	margin-left: 20px;
+	font-size: 13px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	color: white;
+	padding: 10px 15px 10px 15px;
+	text-transform: uppercase;
+	background: #1F2842;
+	border: 2px solid teal;
+	cursor: pointer;
+	width: 220px;
+	height: 50px;
+
+}
+
+.temp button:hover{
+	background: #3498DB;
+}
+
+.containerb table, td{
+	text-align: center;
+	margin: auto
+}
